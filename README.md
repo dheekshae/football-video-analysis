@@ -33,22 +33,21 @@ Built using YOLOv8 and ByteTrack.
 ## 📂 Project Structure
 
 
+```
 football-video-analysis/
 │
 ├── src/
-│ ├── detector.py
-│ ├── tracker.py
-│ ├── metrics.py
-│ ├── visualizer.py
-│ ├── video_io.py
-│ └── write_annotated_video.py
+│   ├── detector.py
+│   ├── tracker.py
+│   ├── metrics.py
+│   ├── visualizer.py
+│   ├── video_io.py
+│   └── write_annotated_video.py
 │
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-
----
+```
 
 ## ▶️ Run The Pipeline
 
