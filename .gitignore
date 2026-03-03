@@ -1,8 +1,20 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
 .env
 
-assets/*.mp4
+# Model weights
+*.pt
+
+# Videos & Data
+assets/
+input/
 outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
