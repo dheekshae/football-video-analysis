@@ -56,9 +56,11 @@ football-video-analysis/
 ├── .gitignore
 ├── demo.gif
 └── README.md
-▶️ Run The Pipeline
+
+##▶️ Run The Pipeline
 python -m src.write_annotated_video
-Outputs
+
+## Outputs
 
 outputs/annotated.avi
 
@@ -66,7 +68,7 @@ outputs/metrics.csv
 
 outputs/heatmaps/
 
-📊 Metrics Export
+##📊 Metrics Export
 
 The generated CSV currently includes:
 
@@ -80,7 +82,7 @@ max_speed_kmph
 
 total_distance_m
 
-🔬 Technical Highlights
+## 🔬 Technical Highlights
 
 Frame-by-frame player detection and tracking pipeline
 
@@ -92,7 +94,7 @@ Smoothed speed estimation to reduce tracking jitter and unrealistic spikes
 
 Per-player movement heatmap generation
 
-📏 Calibration
+## 📏 Calibration
 
 Player speeds are converted from pixel displacement to real-world units using a manually measured calibration factor:
 
@@ -100,7 +102,7 @@ meters_per_pixel = 0.007377
 
 This enables the pipeline to report player speed in km/h and distance in meters instead of pixel-based units.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Speed zone analysis and sprint detection
 
@@ -112,6 +114,6 @@ Homography-based top-down pitch projection
 
 Ball tracking and pass analysis
 
-📌 Author
+## 📌 Author
 
 Dheeksha E
